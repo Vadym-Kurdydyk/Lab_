@@ -12,7 +12,7 @@ while True:
         for i in message:
             mesto = alfavit.find(i)
             new_mesto = mesto + krok
-            if i in alfavit:                 #шифруєм укр символи за допомогою зміщення на 1 вперід змінна krok
+            if i in alfavit:                 
                 itog += alfavit[new_mesto]
             else:
                     itog += i
@@ -23,7 +23,7 @@ while True:
             mesto = alfavit.find(i)
             new_mesto = mesto - krok
             if i in alfavit:
-                itog += alfavit[new_mesto]           #дешифруємо за дпомогою зміщення на 1 назад змінна krok
+                itog += alfavit[new_mesto]           
             else:
                     itog += i
 
